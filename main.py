@@ -1,7 +1,7 @@
 from flask import Flask, render_template, jsonify, request
 import requests
 
-OPENROUTER_API_KEY = "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"
+OPENROUTER_API_KEY = "" #put your api here
 OPENROUTER_BASE_URL = "https://openrouter.ai/api/v1"
 
 app = Flask(__name__)
